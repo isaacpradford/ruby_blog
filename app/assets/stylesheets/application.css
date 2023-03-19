@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    background-color: #e4e4e4;
+}
+
+/* A4C2A5, D8DAD3 */
+
+.index_content {
+    text-align: center;
+}
+
+.article_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    vertical-align: middle;
+    margin: auto; 
+    min-width: 550px;
+    max-width: 900px;
+}
+
+.article_card {
+    margin: auto;
+    list-style: none;
+    color: #566246;
+    background-color: #A4C2A5;
+    width: 200px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+}
